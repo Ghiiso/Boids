@@ -1,6 +1,11 @@
 <h1 align="center">Boids</h1>
 
-Implementation of Boids simulations rules in plain Javascript. To run open index file using a live server. 
+Implementation of Boids simulations rules in plain Javascript. 
+
+## Usage 
+- to run open index file using a live server. 
+- pause the simulation by pressing **p** key
+- attract boid to your mouse cursor by pressing and holding left mouse key
 
 > [!NOTE]
 > The code is not yet optimized and a large number of boids might cause a saturation of browser resources
@@ -19,7 +24,7 @@ plus some extra:
 - boids tends to the center of the screen if no boid is in proximity
 
 ## Settings
-You can play around with the settings inside the [settings](./settings.json) file. The meaning of each parameter is explained below:
+You can play around with the simulation parameters inside the [settings](./settings.json) file. The meaning of each parameter is explained below:
 
 |Parameter|Description
 |-|-
