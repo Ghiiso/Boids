@@ -1,0 +1,15 @@
+{
+	"numberOfBoids"				: 100,
+	"inertia"					: 2,		  
+	"centreOfMassFactor"		: 1,  	  
+	"fieldOfView"				: 50, 
+	"showFieldOfView"			: false,
+	"proximityThresh"			: 15,   	  
+	"proximityDeviationFactor"	: 0.1,  	  
+	"centreOfVelocityFactor"	: 12.5, 	  
+	"speedCap"					: 2,		
+	"boundingSize"				: 60,		
+	"boundersDeviationFactor"	: 0.2,		 
+	"windDirection"				: [0,0],	 
+	"placeTendencyFactor"		: 0.001
+}
