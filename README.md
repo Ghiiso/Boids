@@ -13,15 +13,15 @@ Implementation of Boids simulations rules in plain Javascript.
 ## Simulation rules
 The boids follow the three main rules that defines a boid:
 
-1) boids tends to fly towards the <b>average position</b> (the centre of mass) of neighbouring boids
+1) boids tend to fly towards the <b>average position</b> (the centre of mass) of neighbouring boids
 1) boids try to <b>avoid collision</b> with other boids
-1) boids tends to head in the <b>same direction</b> (average velocity) of neighbouring boids
+1) boids tend to head in the <b>same direction</b> (average velocity) of neighbouring boids
 
 plus some extra:
 
-- boids tends to avoid screen border
-- boids tends to follow mouse pointer if left click button is pressed
-- boids tends to the center of the screen if no boid is in proximity
+- boids tend to avoid screen border
+- boids tend to follow mouse pointer if left click button is pressed
+- boids tend to the center of the screen if no boid is in proximity
 
 ## Settings
 You can play around with the simulation parameters inside the [settings](./settings.json) file. The meaning of each parameter is explained below:
