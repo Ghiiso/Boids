@@ -15,7 +15,12 @@ export class Boid {
      */
     constructor(canvas, size) {
         this.#canvas    = canvas;
-        this.#position  = new Vector2(randomFromRange(0, this.#canvas.getWidth()), randomFromRange(0, this.#canvas.getHeight()));
+        if(settings.startFromCenter)
+            this.#position  = new Vector2(
+                randomFromRange(this.#canvas.getWidth()/2-10, this.#canvas.getWidth()/2+10), 
+                randomFromRange(this.#canvas.getHeight()/2-10, this.#canvas.getHeight()/2+10));
+        else 
+            this.#position  = new Vector2(randomFromRange(0, this.#canvas.getWidth()), randomFromRange(0, this.#canvas.getHeight()));
         this.#size      = size;
         //this.#speed     = new Vector2(randomFromRange(-1,1)*10, randomFromRange(-1,1)*10);
         this.#speed     = new Vector2(0,0);
