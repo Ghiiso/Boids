@@ -10,7 +10,7 @@ async function main() {
     window.addEventListener('resize', () => canvas.init());
 
     for(let i=0; i<settings.numberOfBoids; i++) {
-        canvas.addBoid(new Boid(canvas, 7));
+        canvas.addBoid(new Boid(canvas, settings.sizeOfBoids));
     }
     
     canvas.render();

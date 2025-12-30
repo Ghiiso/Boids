@@ -1,15 +1,17 @@
 {
-	"numberOfBoids"				: 100,
-	"inertia"					: 2,		  
-	"centreOfMassFactor"		: 1,  	  
-	"fieldOfView"				: 50, 
+	"sizeOfBoids"				: 8,
+	"numberOfBoids"				: 300,
+	"inertia"					: 5,		  
+	"centreOfMassFactor"		: 2,  	  
+	"fieldOfView"				: 80, 
 	"showFieldOfView"			: false,
-	"proximityThresh"			: 15,   	  
-	"proximityDeviationFactor"	: 0.1,  	  
+	"proximityThresh"			: 20,   	  
+	"proximityDeviationFactor"	: 0.08,  	  
 	"centreOfVelocityFactor"	: 12.5, 	  
 	"speedCap"					: 2,		
 	"boundingSize"				: 60,		
-	"boundersDeviationFactor"	: 0.2,		 
-	"windDirection"				: [0,0],	 
-	"placeTendencyFactor"		: 0.001
+	"boundersDeviationFactor"	: 0.3,		 
+	"windDirection"				: [0.01,0],	 
+	"placeTendencyFactor"		: 0.01,
+	"startFromCenter"			: true
 }
